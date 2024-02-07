@@ -1,5 +1,5 @@
 ---
-- name: First Play - Docker Image Build
+- name: First Play - Docker Image Build 1
   hosts: docker
   tasks:
     - name: Copy Dockerfile
