@@ -21,5 +21,7 @@
      copy:
        src: k8s-deploy.yml
        dest: /home/ansadmin
+   - name: k8s delete Deployment
+     command: kubect delete deployment mavenwebappdeployment 
    - name : K8S Deployment
      command: kubectl apply -f k8s-deploy.yml
